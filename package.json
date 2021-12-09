@@ -1,0 +1,31 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "node-server(using express and mySQL) for my lab work as student of NULP IoT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "rest",
+    "api",
+    "sequelize"
+  ],
+  "author": "ChumakAn",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.3-rc.0",
+    "sequelize": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
